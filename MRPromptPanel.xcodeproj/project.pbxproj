@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D3E22D4716D2C09F006DF512 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3E22D4616D2C09F006DF512 /* UIKit.framework */; };
+		D3E22D4916D2C09F006DF512 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3E22D4816D2C09F006DF512 /* Foundation.framework */; };
+		D3E22D4B16D2C09F006DF512 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3E22D4A16D2C09F006DF512 /* CoreGraphics.framework */; };
+		D3E22D5116D2C09F006DF512 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D3E22D4F16D2C09F006DF512 /* InfoPlist.strings */; };
+		D3E22D5316D2C09F006DF512 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E22D5216D2C09F006DF512 /* main.m */; };
+		D3E22D5716D2C09F006DF512 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E22D5616D2C09F006DF512 /* AppDelegate.m */; };
+		D3E22D5916D2C09F006DF512 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D3E22D5816D2C09F006DF512 /* Default.png */; };
+		D3E22D5B16D2C09F006DF512 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3E22D5A16D2C09F006DF512 /* Default@2x.png */; };
+		D3E22D5D16D2C09F006DF512 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3E22D5C16D2C09F006DF512 /* Default-568h@2x.png */; };
+		D3E22D6016D2C09F006DF512 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E22D5F16D2C09F006DF512 /* ViewController.m */; };
+		D3E22D6316D2C09F006DF512 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3E22D6116D2C09F006DF512 /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D3E22D4316D2C09F006DF512 /* MRPromptPanel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MRPromptPanel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3E22D4616D2C09F006DF512 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D3E22D4816D2C09F006DF512 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D3E22D4A16D2C09F006DF512 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D3E22D4E16D2C09F006DF512 /* MRPromptPanel-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MRPromptPanel-Info.plist"; sourceTree = "<group>"; };
+		D3E22D5016D2C09F006DF512 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D3E22D5216D2C09F006DF512 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D3E22D5416D2C09F006DF512 /* MRPromptPanel-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MRPromptPanel-Prefix.pch"; sourceTree = "<group>"; };
+		D3E22D5516D2C09F006DF512 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D3E22D5616D2C09F006DF512 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D3E22D5816D2C09F006DF512 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		D3E22D5A16D2C09F006DF512 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		D3E22D5C16D2C09F006DF512 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		D3E22D5E16D2C09F006DF512 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D3E22D5F16D2C09F006DF512 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D3E22D6216D2C09F006DF512 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3E22D4016D2C09F006DF512 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3E22D4716D2C09F006DF512 /* UIKit.framework in Frameworks */,
+				D3E22D4916D2C09F006DF512 /* Foundation.framework in Frameworks */,
+				D3E22D4B16D2C09F006DF512 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D3E22D3A16D2C09F006DF512 = {
+			isa = PBXGroup;
+			children = (
+				D3E22D4C16D2C09F006DF512 /* MRPromptPanel */,
+				D3E22D4516D2C09F006DF512 /* Frameworks */,
+				D3E22D4416D2C09F006DF512 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D3E22D4416D2C09F006DF512 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3E22D4316D2C09F006DF512 /* MRPromptPanel.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3E22D4516D2C09F006DF512 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D3E22D4616D2C09F006DF512 /* UIKit.framework */,
+				D3E22D4816D2C09F006DF512 /* Foundation.framework */,
+				D3E22D4A16D2C09F006DF512 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D3E22D4C16D2C09F006DF512 /* MRPromptPanel */ = {
+			isa = PBXGroup;
+			children = (
+				D3E22D5516D2C09F006DF512 /* AppDelegate.h */,
+				D3E22D5616D2C09F006DF512 /* AppDelegate.m */,
+				D3E22D5E16D2C09F006DF512 /* ViewController.h */,
+				D3E22D5F16D2C09F006DF512 /* ViewController.m */,
+				D3E22D6116D2C09F006DF512 /* ViewController.xib */,
+				D3E22D4D16D2C09F006DF512 /* Supporting Files */,
+			);
+			path = MRPromptPanel;
+			sourceTree = "<group>";
+		};
+		D3E22D4D16D2C09F006DF512 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D3E22D4E16D2C09F006DF512 /* MRPromptPanel-Info.plist */,
+				D3E22D4F16D2C09F006DF512 /* InfoPlist.strings */,
+				D3E22D5216D2C09F006DF512 /* main.m */,
+				D3E22D5416D2C09F006DF512 /* MRPromptPanel-Prefix.pch */,
+				D3E22D5816D2C09F006DF512 /* Default.png */,
+				D3E22D5A16D2C09F006DF512 /* Default@2x.png */,
+				D3E22D5C16D2C09F006DF512 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3E22D4216D2C09F006DF512 /* MRPromptPanel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3E22D6616D2C09F006DF512 /* Build configuration list for PBXNativeTarget "MRPromptPanel" */;
+			buildPhases = (
+				D3E22D3F16D2C09F006DF512 /* Sources */,
+				D3E22D4016D2C09F006DF512 /* Frameworks */,
+				D3E22D4116D2C09F006DF512 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MRPromptPanel;
+			productName = MRPromptPanel;
+			productReference = D3E22D4316D2C09F006DF512 /* MRPromptPanel.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3E22D3B16D2C09F006DF512 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = synthcell;
+			};
+			buildConfigurationList = D3E22D3E16D2C09F006DF512 /* Build configuration list for PBXProject "MRPromptPanel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D3E22D3A16D2C09F006DF512;
+			productRefGroup = D3E22D4416D2C09F006DF512 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3E22D4216D2C09F006DF512 /* MRPromptPanel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3E22D4116D2C09F006DF512 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3E22D5116D2C09F006DF512 /* InfoPlist.strings in Resources */,
+				D3E22D5916D2C09F006DF512 /* Default.png in Resources */,
+				D3E22D5B16D2C09F006DF512 /* Default@2x.png in Resources */,
+				D3E22D5D16D2C09F006DF512 /* Default-568h@2x.png in Resources */,
+				D3E22D6316D2C09F006DF512 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3E22D3F16D2C09F006DF512 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3E22D5316D2C09F006DF512 /* main.m in Sources */,
+				D3E22D5716D2C09F006DF512 /* AppDelegate.m in Sources */,
+				D3E22D6016D2C09F006DF512 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D3E22D4F16D2C09F006DF512 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3E22D5016D2C09F006DF512 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D3E22D6116D2C09F006DF512 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3E22D6216D2C09F006DF512 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D3E22D6416D2C09F006DF512 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D3E22D6516D2C09F006DF512 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3E22D6716D2C09F006DF512 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MRPromptPanel/MRPromptPanel-Prefix.pch";
+				INFOPLIST_FILE = "MRPromptPanel/MRPromptPanel-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D3E22D6816D2C09F006DF512 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MRPromptPanel/MRPromptPanel-Prefix.pch";
+				INFOPLIST_FILE = "MRPromptPanel/MRPromptPanel-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3E22D3E16D2C09F006DF512 /* Build configuration list for PBXProject "MRPromptPanel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3E22D6416D2C09F006DF512 /* Debug */,
+				D3E22D6516D2C09F006DF512 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3E22D6616D2C09F006DF512 /* Build configuration list for PBXNativeTarget "MRPromptPanel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3E22D6716D2C09F006DF512 /* Debug */,
+				D3E22D6816D2C09F006DF512 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D3E22D3B16D2C09F006DF512 /* Project object */;
+}
